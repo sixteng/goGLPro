@@ -1,0 +1,23 @@
+﻿Build started 2013-04-16 22:52:16.
+     1>Project "C:\Users\Sixten\Documents\Development\goGLPro\pkg\glew\build\vc10\glew_static.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "static/debug/glew_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MakeDirsForCl:
+         Creating directory "C:\Users\Sixten\Documents\Development\goGLPro\pkg\glew\build\vc10\.\static\release".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D WIN32_LEAN_AND_MEAN /D VC_EXTRALEAN /D GLEW_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\static/release\\" /Fd".\static/release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\glew.c
+         glew.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D GLEW_STATIC /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo"static/debug/glew.res" ..\glew.rc 
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"../../lib/glew32s.lib" /NOLOGO /MACHINE:X86 static/debug/glew.res
+         .\static/release\glew.obj
+         glew_static.vcxproj -> C:\Users\Sixten\Documents\Development\goGLPro\pkg\glew\build\vc10\../../lib/glew32s.lib
+       FinalizeBuildStatus:
+         Deleting file "static/debug/glew_static.unsuccessfulbuild".
+         Touching "static/debug/glew_static.lastbuildstate".
+     1>Done Building Project "C:\Users\Sixten\Documents\Development\goGLPro\pkg\glew\build\vc10\glew_static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60
