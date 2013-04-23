@@ -106,10 +106,6 @@ func (window *Win32Window) GetHDC() unsafe.Pointer {
 	return unsafe.Pointer(&window.hdc)
 }
 
-func (window *Win32Window) SetPixelFormat(depth byte) {
-
-}
-
 func (window *Win32Window) Peek() bool {
 	var msg C.MSG
 

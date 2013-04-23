@@ -5,6 +5,7 @@ package opengl
 /*
 #cgo windows CFLAGS: -I../../../../pkg/glew/include
 #cgo windows LDFLAGS: -lopengl32 -lglew32 -L../../../../pkg/glew/lib
+#
 #include <GL/glew.h>
 #include <GL/wglew.h>
 #include <GL/gl.h>

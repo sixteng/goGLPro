@@ -16,12 +16,14 @@ func main() {
 			shutdown = true
 		}
 
+		fmt.Println("Callback")
+
 		return false
 	})
 
 	opengl.CreateContext(mainwindow)
+	opengl.Test(mainwindow)
 
-	mainwindow.GetHDC()
 	for !shutdown {
 		if mainwindow.Peek() {
 			continue
